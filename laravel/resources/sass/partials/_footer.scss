@@ -1,0 +1,31 @@
+footer {
+  color: $color_white;
+  background-color: #1b3c59;
+}
+
+footer img {
+  width: $logo_width;
+}
+
+.footer-top-left {
+  @include flex(space-between, flex-start);
+  border-bottom: 1px solid white;
+}
+
+.footer-top-left li {
+  list-style-type: none;
+}
+
+.footer-list li {
+list-style-type: none;
+
+  a {
+    font-size: 24px;
+    color: white;
+  }
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-bottom: 20px;
+}
