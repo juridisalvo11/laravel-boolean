@@ -62,3 +62,59 @@
 .bottom-row-logos {
   text-align: right;
 }
+
+.faq-main {
+
+}
+
+.domande-frequenti {
+  color: $color_blue;
+  margin: 50px 0;
+
+  p{
+    font-size: 18px;
+  }
+}
+
+.faq-row {
+  display: flex;
+}
+
+.wrapper-grey, .wrapper-blu {
+  width: 50%;
+  padding: 50px 100px;
+}
+
+.wrapper-grey {
+  color: $color_blue;
+  background-color: #e8ebf1;
+}
+
+.wrapper-blu {
+  color: white;
+  background-color: #1b3c59;
+}
+
+.title-faq {
+  h2 {
+    margin-bottom: 50px;
+  }
+}
+
+.faq-box {
+  margin: $section-padding;
+
+}
+
+.faq-box .title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.paragraph {
+  display: none;
+}
+
+.paragraph.active {
+  display: block;
+}

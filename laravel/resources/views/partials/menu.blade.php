@@ -8,22 +8,22 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="boolean">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Corso</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Dopo il corso</a>
+        <a class="nav-link" href="#">Dopo il corso</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Lezioni Gratuita</a>
+        <a class="nav-link" href="#">Lezioni Gratuita</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Assumi i nostri studenti</a>
+        <a class="nav-link" href="#">Assumi i nostri studenti</a>
       </li>
     </ul>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Candidati Ora</button>
+      <button class="btn btn-outline-success my-2 my-sm-0 candidati-ora" type="submit">Candidati Ora</button>
   </div>
 </nav>

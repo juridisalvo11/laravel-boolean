@@ -2,6 +2,21 @@
   width: 200px;
 }
 
+.nav-item a{
+  font-weight: 600;
+}
+
 .navbar-nav li {
+  text-transform: $font-uppercase;
   margin-left: 30px;
+}
+
+.candidati-ora {
+  color: white;
+  text-transform: $font-uppercase;
+  width: 180px;
+  padding-left: 10px 0;
+  border-radius: 5px;
+  font-weight: 400;
+  background-color: #61ce4e;
 }

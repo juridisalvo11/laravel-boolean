@@ -24,3 +24,7 @@ Route::get('/boolean', function () {
 Route::get('/privacy_policy', function () {
     return view('privacy_policy');
 });
+
+Route::get('/faq', function () {
+    return view('faq');
+});
