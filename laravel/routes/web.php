@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/boolean', function () {
     return view('homepage');
 });
+
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+});

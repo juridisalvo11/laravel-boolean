@@ -1,0 +1,57 @@
+.jumbotron {
+  @include flex(flex-start, center);
+  color: $color_blue;
+  background-color: white;
+  padding-bottom: 60px;
+
+  .title strong {
+    font-weight: 700;
+  }
+
+  .jumbotron-left {
+    text-align: left;
+  }
+
+  .jumbotron-subtitle{
+    margin-top: 40px;
+    font-weight: 700;
+  }
+
+  span {
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
+
+.jumbotron-img img {
+  width: 500px;
+}
+
+.boolean-numbers {
+  background-color: $color_blue;
+  border-bottom: 3px solid white;
+  padding: 40px 0;
+
+  .numbers-row {
+    color: $color_white;
+    display: flex;
+    justify-content: space-around;
+
+    div {
+      text-align: center;
+
+      h2 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.partners-logos {
+  width: 100%;
+  height: 400px;
+}
