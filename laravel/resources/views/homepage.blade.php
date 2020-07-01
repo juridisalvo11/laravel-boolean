@@ -39,8 +39,15 @@
     <div class="container">
       <div class="row">
         <h5>I nostri studenti sono stati assunti da:</h5>
-        <div class="">
-          <img src="" alt="">
+        <div class="top-row-logos">
+          <img class="col-lg-3" src="img/facileit.png" alt="">
+          <img class="col-lg-3" src="img/oneday.png" alt="">
+          <img class="col-lg-3" src="img/prima.png" alt="">
+        </div>
+        <div class="bottom-row-logos">
+          <img class="col-lg-3" src="img/fabbrica-digitale-big.png" alt="">
+          <img class="col-lg-3" src="img/nephila.png" alt="">
+          <img class="col-lg-3" src="img/rds.png" alt="">
         </div>
 
       </div>

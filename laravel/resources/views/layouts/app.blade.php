@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Boolean</title>
     <link rel="stylesheet" href={{ asset('css/app.css') }}>
+    <script src="https://kit.fontawesome.com/3e39139afa.js" crossorigin="anonymous"></script>
   </head>
   <body>
     @include('partials.menu')

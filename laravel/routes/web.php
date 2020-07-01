@@ -21,6 +21,6 @@ Route::get('/boolean', function () {
     return view('homepage');
 });
 
-Route::get('/privacy-policy', function () {
-    return view('privacy-policy');
+Route::get('/privacy_policy', function () {
+    return view('privacy_policy');
 });
